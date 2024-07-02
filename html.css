@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Discover my projects and get in touch!</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-tile">
+            <h3>Cheese Themed Survey Form</h3>
+            <a href="https://codepen.io/yourusername/full/yourproject1" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <h3>Tribute to Hong Kong</h3>
+            <a href="https://codepen.io/yourusername/full/yourproject2" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <h3>Flute Technical Documentation</h3>
+            <a href="https://codepen.io/yourusername/full/yourproject3" target="_blank">View Project</a>
+        </div>
+        <div class="project-tile">
+            <h3>Parmesan Cheese Landing Page</h3>
+            <a href="https://codepen.io/yourusername/full/yourproject4" target="_blank">View Project</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you like my projects and want to get in touch, please visit my <a id="profile-link" href="https://github.com/yourusername" target="_blank">GitHub Profile</a>.</p>
+    </section>
+</body>
+</html>
